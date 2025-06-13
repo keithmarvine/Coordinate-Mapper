@@ -12,4 +12,4 @@ Features
 4. Interactive Leaflet map.
 
 Demo
-Follow this link:https://keithmarvine.github.io/Coordinate-Mapper/
+Follow this link: https://keithmarvine.github.io/Coordinate-Mapper/
