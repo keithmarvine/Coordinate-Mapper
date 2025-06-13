@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coordinate Mapper</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Coordinate Mapper</h1>
+            <p>Upload a CSV or Excel file with coordinates and visualize the points on a map.</p>
+        </header>
+
+        <section class="upload-section">
+            <input type="file" id="upload" accept=".csv, .xlsx, .xls" />
+            <div id="status" class="status">Waiting for file...</div>
+            <button id="showMapBtn" style="display: none;">Display on Map</button>
+        </section>
+
+        <div id="map"></div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
